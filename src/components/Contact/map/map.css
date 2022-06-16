@@ -1,0 +1,5 @@
+.map_img {
+  background: url("../../../assets/map.jpg");
+
+  background-size: contain;
+}

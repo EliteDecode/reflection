@@ -1,0 +1,30 @@
+@media (min-width: 0px) and (max-width: 575px) {
+  .blog p {
+    font-size: 11px;
+  }
+  .rec.rec-arrow:disabled {
+    visibility: hidden;
+  }
+
+  .bloggers .container h1 {
+    text-align: center;
+  }
+  .rec.rec-arrow {
+    display: none;
+  }
+  .rec.rec-dot {
+    background: var(--blue);
+    padding: 0.4%;
+    height: 1px;
+    border-radius: 0;
+  }
+}
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+.rec.rec-dot {
+  background: var(--blue);
+  padding: 0.4%;
+  height: 1px;
+  border-radius: 0;
+}

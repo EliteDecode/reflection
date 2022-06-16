@@ -1,0 +1,29 @@
+.card-imgT img {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 170px;
+}
+.team {
+  background-color: #fbfbfb;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .card-titleT h3 {
+    font-size: 14px !important;
+  }
+
+  .card-bodyT {
+    padding: 3% 12% !important;
+  }
+
+  .card-textT {
+    font-size: 13px !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .team-card {
+    padding: 4% 10% !important;
+  }
+  .header_text {
+    text-align: center;
+  }
+}

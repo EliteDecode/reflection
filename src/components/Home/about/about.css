@@ -1,0 +1,38 @@
+@media (min-width: 0px) and (max-width: 500px) {
+  .about_img {
+    display: none;
+  }
+  .about_content {
+    margin-top: -23% !important;
+  }
+
+  .about-content p {
+    font-size: 16px !important;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+  .about_img {
+    display: none;
+  }
+  .about_content {
+    margin-top: -10% !important;
+  }
+
+  .about-content p {
+    font-size: 17px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .about_img img {
+    width: 100%;
+    min-height: 230px;
+  }
+  .about_content {
+    margin-top: 0% !important;
+  }
+
+  .about-content p {
+    font-size: 12px !important;
+  }
+}

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --blue: rgba(46, 49, 145, 1);
+  --para1: rgba(0, 0, 0, 0.55);
+  --para2: rgba(0, 0, 0, 0.2);
+  --dark: rgba(0, 0, 0, 1);
+  --nav-dark: rgba(32, 32, 32, 1);
+  --white: rgba(255, 255, 255, 1);
+}
+
+nav {
+  padding: 1.5% 0% !important;
+}
+
+.blue {
+  color: rgba(46, 49, 145, 1) !important;
+}
+
+.white {
+  color: rgba(255, 255, 255, 1);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.light {
+  font-weight: 600;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-12 {
+  font-size: 12px;
+}
+.btn-reflection {
+  background-color: var(--blue);
+  color: var(--white);
+  border: 1px solid var(--blue);
+  outline: var(--blue);
+}
+
+a {
+  color: var(--nav-dark) !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: block !important;
+}
+
+/* For Navbar controls */
+@media (max-width: 991px) {
+  #navbarNav {
+    display: none;
+  }
+
+  #navmobile {
+    display: block !important;
+  }
+
+  nav {
+    padding: 4.5% 0% !important;
+  }
+}
+
+#navmobile {
+  display: none;
+}
+#mobmenu {
+  display: none;
+  position: absolute;
+  z-index: 1111;
+}
+
+li:hover {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--blue);
+}

@@ -1,13 +1,144 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --blue: rgba(46, 49, 145, 1);
+  --para1: rgba(0, 0, 0, 0.55);
+  --para2: rgba(0, 0, 0, 0.2);
+  --dark: rgba(0, 0, 0, 1);
+  --nav-dark: rgba(32, 32, 32, 1);
+  --white: rgba(255, 255, 255, 1);
+  --yellow: #ffc41b;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --blue: rgba(46, 49, 145, 1);
+  --para1: rgba(0, 0, 0, 0.55);
+  --para2: rgba(0, 0, 0, 0.2);
+  --dark: rgba(0, 0, 0, 1);
+  --nav-dark: rgba(32, 32, 32, 1);
+  --white: rgba(255, 255, 255, 1);
+}
+
+.bg-gray {
+  background-color: #ebeced;
+}
+.para1 {
+  color: rgba(0, 0, 0, 0.55);
+}
+.para2 {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.blue {
+  color: rgba(46, 49, 145, 1) !important;
+}
+
+.yellow {
+  color: #ffc41b;
+}
+
+.white {
+  color: rgba(255, 255, 255, 1);
+}
+
+.bg-blue {
+  background-color: rgba(46, 49, 145, 1) !important;
+}
+
+.opacity {
+  opacity: 0.9;
+}
+.white {
+  color: rgba(255, 255, 255, 1);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.light {
+  font-weight: 600;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-10 {
+  font-size: 10px;
+}
+.btn-reflection {
+  background-color: var(--blue);
+  color: var(--white);
+  border: 1px solid var(--blue);
+  outline: var(--blue);
+}
+
+.btn-reflection-yellow {
+  background-color: var(--yellow);
+  color: var(--white);
+  outline: var(--yellow);
+}
+
+.btn-reflection-yellow:hover {
+  background-color: var(--yellow);
+  color: var(--white);
+  outline: var(--yellow);
+}
+a {
+  color: var(--nav-dark) !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: block !important;
 }

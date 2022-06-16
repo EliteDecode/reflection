@@ -1,0 +1,7 @@
+.course_card {
+  border-bottom-right-radius: 25px;
+}
+
+.click:hover {
+  text-decoration: underline;
+}

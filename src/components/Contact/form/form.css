@@ -1,0 +1,14 @@
+.contact_form {
+  width: 60%;
+  margin: 0% 20%;
+}
+
+.contact {
+  background: #fbfbfb;
+}
+@media (min-width: 0px) and (max-width: 1199px) {
+  .contact_form {
+    width: 95%;
+    margin: 0% 2.5%;
+  }
+}

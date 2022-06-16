@@ -1,0 +1,14 @@
+li {
+  list-style-type: none;
+  margin-bottom: 3%;
+}
+ul {
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .copy {
+    font-size: 13px;
+  }
+}

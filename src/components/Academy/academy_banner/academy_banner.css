@@ -1,0 +1,32 @@
+.academy_banner_img {
+  margin-top: 5%;
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  .academy_banner_img img {
+    width: 90% !important;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .hide_bg {
+    display: none;
+  }
+  .hide_p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hide_bg img {
+    height: 300px;
+    width: 100% !important;
+    margin-top: 6%;
+  }
+
+  .hide_p {
+    font-size: 11px;
+  }
+}
+.ab {
+  background-color: #fbfbfb;
+}

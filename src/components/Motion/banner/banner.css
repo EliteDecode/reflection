@@ -1,0 +1,29 @@
+@media (min-width: 0px) and (max-width: 1199px) {
+  .course_banner {
+    margin-top: 20% !important;
+    padding-top: 3% !important;
+    margin-bottom: 0% !important;
+  }
+
+  .course_banner p {
+    margin-top: 9% !important;
+  }
+
+  .course_form {
+    margin-top: 10% !important;
+  }
+
+  .course_form form {
+    width: 100% !important;
+  }
+
+  .header .container ul li {
+    font-size: 10px !important;
+    margin: 0% 2% !important;
+  }
+}
+
+.c_banner {
+  background: url("../../../assets/academybg.png");
+  background-size: 100% 100%;
+}
