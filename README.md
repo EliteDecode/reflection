@@ -6,14 +6,14 @@ Reflection (reflection.com.ng) is a technology company focused on tech career co
 
 Reflection helps brands and people succeed in tech through two lines of business:
 
-- **Reflection Academy** â€” training and career coaching for people who want to enter tech, with tracks in:
+- **Reflection Academy** — training and career coaching for people who want to enter tech, with tracks in:
   - frontend development
   - backend development
   - mobile app development
   - UI/UX design
   - graphic design
   - motion design
-- **Agency services** â€” a team of brand identity designers, graphic designers, UI/UX designers and mobile, web and desktop developers who build brands and software for clients.
+- **Agency services** — a team of brand identity designers, graphic designers, UI/UX designers and mobile, web and desktop developers who build brands and software for clients.
 
 The website turns visitors into academy students and agency clients.
 
